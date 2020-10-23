@@ -3,7 +3,7 @@ import "./App.css";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./global";
 import { theme } from "./theme";
-import { Nav, Header, Footer, Login } from "./components";
+import { Nav, Header, Footer } from "./components";
 
 class App extends React.Component {
   render() {

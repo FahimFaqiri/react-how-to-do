@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Nav.css";
+import "./Nav.css";
 import { study } from "../../images";
 
 function Nav() {
   return (
-    <div className="section-navbar col-12">
+    <div className="section-navbar">
       <div className="logo">
         <img src={study} alt="study smart" />
       </div>
@@ -14,7 +14,9 @@ function Nav() {
         </a>
         <a href="/collection">Collection</a>
         <a href="/pricing">Pricing</a>
-        <a href="/sign-in">Sign-in</a>
+        <a className="sign-in-btn" href="/sign-in">
+          Sign-in
+        </a>
       </div>
     </div>
   );
